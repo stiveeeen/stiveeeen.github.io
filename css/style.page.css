@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,nav,main,footer{
+    widows:960;
+    padding:30px;
+    margin-left:auto;
+    margin-right:auto;    
+}
+header{
+    height: 100px;
+    background-color:#CE7095;
+    color:#F7F1E1;
+}
+nav{
+    height: 50px;
+    background-color:#FFB2C1;
+    }
+main{
+    height:auto;
+    background-color:#FFDBD7;
+}
+section{
+    width:800px;
+    height:auto;
+    background-color:#CE7095;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:30px;
+}
+footer{
+    height:50px;
+     background-color:#855E6E;
+    color:#FFDBD7;
+}
+h1, h5{
+    text-align:center;
+    }
+ul{
+    text-align:center;
+}
+ul li{
+    display:inline-block;
+    width:80px;
+    padding:20px;
+    background-color:#CE7095;
+    color:#855E6E;
+     text-decoration:none;
+}
+ nav ul li a:visited, nav ul li a:link{ 
+    color:#FFDBD7;
+    text-decoration:none;
+}
+nav ul li:hover{
+    background-color:#855E6E;
+}
+nav ul li a:link{
+    color:#F7F1E1;
+}
+img{
+    width: 400px;
+    height:auto;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2,p{
+    color:#F7F1E1;
+}
+h2{
+    margin-bottom:20px;
+}
+#tsuki_flotador{
+    width:300px;
+    float:right;
+}
+#tsuki_contemplando{
+    width: 300px;
+    float: left;
+    margin-right:20px;
+}
+main nav{
+width: 800px;
+    padding: 30px;
+}
+#conejo_b{
+    width: 32px;
+    height: auto;
+}
+#fondo_section{
+    background-image: url("../imagenes/viendo%20arriba.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#fondo_section p, #fondo_section{
+ color:#F7F1E1;   
+}
+#filtros_imagen{
+    text-align:center;
+}
+#filtros_imagen img{
+    display:inline-block;
+    width:10%;
+    height:auto;
+    padding:10%;
+}
+#img1{
+    filter: brightness(150%);
+}
+#img2{
+    filter: contrast(50%);
+}
+#img3{
+    filter: grayscale(100%);
+}
+#img4{
+    filter: invert(100%);
+}
+#img5{
+    filter: opacity(0.2);
+}
+#img6{
+    filter: sepia(100%);
+}
+#img7{
+   filter: saturate(150%);
+}
+#img8{
+    filter: blur(8px);
+}
+#img9{
+    filter: drop-shadow(5px 10px 20px red);
+}
+#img10{
+    filter: contrast(40%) blur(2px);
+}
+#img11{
+    filter: hue-rotate(30deg);
+}
+iframe, audio{
+    display: block;
+    margin: 0 auto;
+}
