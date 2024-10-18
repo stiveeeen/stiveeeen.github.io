@@ -1,0 +1,207 @@
+<html>
+ <head>
+    <title>Tablas en HTML</title>
+     <link rel="stylesheet" href="..//css/style.page.css" type="text/css">
+     <style type="text/css">
+         #tabla_uno{
+        width:100%;
+        text-align:center;
+        margin: 0 auto;
+        color:#F7F1E1;
+        border-bottom-style: solid;
+        border-color:#855E6E;
+        border-width:5px;
+        border-spacing: 10px;
+         }
+         tabla_uno th{  
+        background-color:#855E6E;
+         }
+         tabla_uno td{
+             background-color:#FFB2C1;
+             color:#855E6E;
+             text-align:left;
+            border-radius:5px;
+             margin:10px;
+             border-color:#855E6E;
+             border-top-width:3px;
+         }
+         #tabla_2{
+             color:#F7F1E1;
+         }
+         #tabla_2 td{
+             color:#855E6E;
+             height:50px;
+             padding:10px;
+         }
+         .celda_centrada{
+             text-align:center;
+             padding:0px;
+             background-color:#FFDBD7;
+         }
+         .tabla_dos{
+             width: 700px;
+             border-collapse:collapse;
+             border-color:#FFDBD7;
+             color:#FFDBD7;
+             border-style:double; 
+             margin: 0 auto;
+         }
+         .tabla_dos td .tabla_dos th{
+             width:150px;
+             border-color:#855E6E;
+             padding:10px;
+             border-style:dashed;
+         }
+         .tabla_dos th{
+            background-color:#855E6E;
+         }
+         .tabla_dos td{
+            background-color:#FFB2C1;
+             
+         }
+      
+     </style>
+    </head>
+<body>
+    <header>Tablas en HTML</header>
+    <nav>
+    <ul>
+        
+         
+            <li><a href="../html/mi_primera_web.html"> Inicio</a></li>
+            <li><a href="listas.html">Listas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/imagene.html">Imagenes</a></li>
+            <li><a href="../html/audio.html">Audio</a></li>
+            <li><a href="..//html/video.html">Videos</a></li>
+            <li><a href="#">Tablas</a></li>
+            <li><a href="#">Formulñarios</a></li>
+        
+        </ul>
+    </nav>
+    <main>
+    <section>
+        <h2> Tablas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla ex id ipsum aliquet finibus. Proin consequat sodales lacus, eu ultrices risus finibus ac. Nam pretium purus ante, ultrices malesuada tellus sollicitudin in. Aenean eget odio sed nisl mattis lobortis quis vitae elit. In auctor ligula quis turpis lobortis feugiat. Duis rhoncus blandit leo eu auctor. Pellentesque efficitur vehicula faucibus. Nulla non augue porta, maximus ante nec, tempus mauris. Aenean id tincidunt purus. Praesent luctus hendrerit magna eget convallis. Aenean dui nibh, elementum posuere suscipit ac, placerat at diam. Morbi eleifend lacus ut purus efficitur, non mattis tellus ultricies. Phasellus.</p>
+        <table border="1" id="tabla_uno">
+        <thead>
+        <tr>
+            <th>Matricula</th>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Colegio</th>
+            </tr>
+        </thead>
+            <tbody>
+            <tr>
+                <td>202027085</td>
+                <td>Natasha</td>
+                <td>Rose</td>
+                <td>Alvarez</td>
+                <td>Disño grafico</td>
+                </tr>
+                <tr>
+                <td>2020123654</td>
+                <td>Pamela</td>
+                <td>Anzurez</td>
+                <td>Cortes</td>
+                <td>Aquitectura</td>
+                </tr>
+                <tr>
+                <td>2020098456</td>
+                <td>Sasha</td>
+                <td>Benumea</td>
+                <td>Diaz</td>
+                <td>Disño grafico</td>
+                </tr>
+                <tr>
+                <td>2020453678</td>
+                <td>Sofia</td>
+                <td>Torres</td>
+                <td>Alvarez</td>
+                <td>Urbanismo</td>
+                </tr>
+                <tr>
+                <td>2020135790</td>
+                <td>Luna</td>
+                <td>Santos</td>
+                <td>Dominguez</td>
+                <td>Arquitectura</td>
+                </tr>
+            </tbody>
+        <tfoot></tfoot>
+        </table>
+        
+     </section>
+        <section>
+        <h2> Tablas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla ex id ipsum aliquet finibus. Proin consequat sodales lacus, eu ultrices risus finibus ac. Nam pretium purus ante, ultrices malesuada tellus sollicitudin in. Aenean eget odio sed nisl mattis lobortis quis vitae elit. In auctor ligula quis turpis lobortis feugiat. Duis rhoncus blandit leo eu auctor. Pellentesque efficitur vehicula faucibus. Nulla non augue porta, maximus ante nec, tempus mauris. Aenean id tincidunt purus. Praesent luctus hendrerit magna eget convallis. Aenean dui nibh, elementum posuere suscipit ac, placerat at diam. Morbi eleifend lacus ut purus efficitur, non mattis tellus ultricies. Phasellus.</p>
+            <table id="tabla_2" class="tabla_dos">
+            <thead>
+                <tr>
+                    <th style="width:200px;">Nombre</th>
+                    <th style="width:200px;">Edad</th>
+                    <th style="width:150px;" colspan="2">Telefono</th> 
+                    <th style="width:200px;">Cooperación</th> 
+                </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>Lupita Fanco kush</td>
+                    <td style="text-alaing=center; padding:0px;">16</td>
+                    <td>2222438976</td>
+                    <td>2224569807</td>
+                    <td style="text-align:center; padding:0px; background-color:#FFDBD7;" >420</td>
+                </tr>
+                 <tr>
+                    <td>Madison Monte cristo santos</td>
+                    <td style="text-alaing=center; padding:0px;">14</td>
+                    <td>2219085463</td>
+                     <td>2224569807</td>
+                    <td style="text-align:center; padding:0px; background-color:#FFDBD7;">400</td>
+                </tr>
+                 <tr>
+                    <td>Juana Guadalupe de jesus</td>
+                    <td style="text-alaing=center; padding:0px;">13</td>
+                    <td>7352345678</td>
+                     <td>2224569807</td>
+                    <td style="text-align:center; padding:0px; background-color:#FFDBD7;">500</td>
+                </tr>
+                 <tr>
+                    <td>Kyliez Ponce de leon</td>
+                    <td style="text-alaing=center; padding:0px;">17</td>
+                    <td>7351465008</td>
+                     <td></td>
+                    <td style="text-align:center; padding:0px; background-color:#FFDBD7;">600</td>
+                </tr>
+                <tr>
+                    <td>Georgiana moros</td>
+                    <td style="text-alaing=center; padding:0px;">13</td>
+                    <td>7352345678</td>
+                    <td>2224569807</td>
+                    <td style="text-align:center; padding:0px; background-color:#FFDBD7;">500</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>TOTAL</td>
+                    <td class="celda_centrada" style="background-color:#855E6E; color:#F7F1E1;"  >2,420</td>
+                </tr>
+                </tbody>
+            <tfoot></tfoot> 
+            </table>
+     </section>
+    <section>
+        <h2> Tablas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla ex id ipsum aliquet finibus. Proin consequat sodales lacus, eu ultrices risus finibus ac. Nam pretium purus ante, ultrices malesuada tellus sollicitudin in. Aenean eget odio sed nisl mattis lobortis quis vitae elit. In auctor ligula quis turpis lobortis feugiat. Duis rhoncus blandit leo eu auctor. Pellentesque efficitur vehicula faucibus. Nulla non augue porta, maximus ante nec, tempus mauris. Aenean id tincidunt purus. Praesent luctus hendrerit magna eget convallis. Aenean dui nibh, elementum posuere suscipit ac, placerat at diam. Morbi eleifend lacus ut purus efficitur, non mattis tellus ultricies. Phasellus.</p>
+     </section>
+    </main>
+    <footer>
+<h5>Elaboado por Estiven Alvarez Cortes</h5>
+</footer>
+    
+    </body>
+
+</html>

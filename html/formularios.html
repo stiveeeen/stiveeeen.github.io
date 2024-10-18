@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.page.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		form{
+		    width: 70%;	
+			height: auto;
+			padding: 30px;
+			background-color: #FF7678;
+			color:#39FBD9;
+			margin: 0 auto;
+		}
+		label{
+			padding-bottom:10px;
+			padding-top:10px;
+		}
+		label, input{
+			display: block;
+			margin-left:10px;
+		}
+		input[type=text],input[type=password]{
+			width: 90%;
+			color:#BC60C8;
+			padding:8px;
+		font-weight:bold;
+			border: 3px solid #E73639;
+			border-radius: 7px;
+			background-color:#F19797;
+		}
+		input[type=submit]{
+			width:30%;
+			background-color: #E32BA3;
+			padding: 10px;
+			margin: 20px auto;
+			border border-radius: 10px;
+			color: beige;
+			font-weight:bold;
+		}
+		input[type=text]:focus, input[type=password]:focus{
+			background-color:#FFA1A3;
+			border:3px solid #EBC167;
+		}
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>FORMULARIOS HTML</h1>
+</header>
+<nav>
+<ul>
+	<li><a href="../Medios/index.html">Inicio</a></li>
+	<li><a href="listas.html">Listas</a></li>
+	<li><a href="../html/tablas.html">Tablas</a></li>
+	<li><a href="../html/enlaces.html">Enlaces</a></li>
+	<li><a href="../html/imagene.html">Imagenes</a></li>
+	<li><a href="../html/audio.html">Audio</a></li>
+	<li><a href="../html/video.html">Video</a></li>
+	<li><a href="../html/formularios.html">Formularios</a></li>
+</ul>
+</nav>
+<main>
+  <section>
+    <h2>FORMULARIOS USUARIO 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem optio enim quidem. Consectetur suscipit, minus vero laboriosam ullam velit odit illum necessitatibus asperiores non, dolore. Obcaecati a, quam, suscipit saepe possimus voluptatum dignissimos voluptatibus, distinctio laborum vel reprehenderit. Sequi tempore a, omnis vero. Esse molestias adipisci, numquam alias in ullam vero nam quasi deserunt soluta assumenda officia et aut temporibus iusto quas placeat ipsa blanditiis, minima quae quisquam! Id optio laudantium eius ad ut unde, sit laboriosam, sunt facere, dolorem quasi aut dolor molestiae non. Laudantium cupiditate recusandae inventore, quo sint culpa nulla ratione fugiat hic dolores porro doloremque.</p>
+	   <form action="" method="get">
+	  <label id="">Nombre:</label>
+	  <input type="text" id="nombre" name="nombre">
+	  <label id="">Contraseña:</label>
+	  <input type="password" id="contrasena" name="contrasena">
+	 <input type="submit" value="Enviar">
+	  </form>
+  </section>
+<section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et soluta cupiditate hic dolores molestiae, asperiores saepe officia nulla repellendus eligendi. Accusamus quod magni commodi quisquam nisi, velit at, sint quas soluta quo nam unde provident illum eaque corrupti? Quas itaque autem dolorem at numquam distinctio nemo totam quisquam in omnis, excepturi culpa quia repudiandae tempora fugiat earum perferendis odit consequatur illo quae, harum. Dolorum numquam, nobis maiores minus maxime. Soluta dolorem facere exercitationem quo, cumque totam cum perspiciatis earum facilis recusandae nesciunt, labore, doloribus. Suscipit perspiciatis animi voluptate dolorem, eos eaque exercitationem commodi! Dicta eveniet facilis sit excepturi non tenetur.</p>
+    <form id="form1" name="form1" method="post">
+<label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre">
+          <label for="edad">Edad:</label>
+          <input type="number" name="edad" id="edad" min="18" max="100">
+<label for="select">Select:</label>
+          <select name="estado" id="estado">
+			  <option value="Aguacalientes">Aguacalientes</option>
+			   <option value="Colima">Colima</option>
+			   <option value="Durango">Durango</option> 
+			  <option value="Jalisco">Jalisco</option> 
+			  <option value="Nayarit">Nayarit</option>
+			  <option value="Puebla">Pubela</option>
+		</select>
+    </form>
+    <input type="submit" name="submit" id="submit" value="Enviar">
+  </section>
+  <section>
+    <h2>Entrevista&nbsp;</h2>
+    <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur et facilis sint, cum perspiciatis ratione numquam odit nulla consequatur excepturi laborum vero obcaecati nobis, ad corrupti dolorem illo voluptatem quae perferendis ducimus, non? Placeat, blanditiis quia sapiente incidunt maiores, ratione minima, distinctio impedit sint iusto possimus harum omnis debitis veritatis quis, qui. Laborum aperiam recusandae ut hic, iusto aliquid corrupti eligendi, quos quod cumque! Totam dicta in reprehenderit nam qui est repudiandae itaque, quasi et optio? Molestias eius maiores magni pariatur, quisquam id sunt quasi dolorum ducimus. Fugit natus reiciendis molestias! Nesciunt quo, aliquam repellendus architecto, culpa unde. Quis, quidem.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="textfield">Nombre:&nbsp;</label>
+      <input type="text" name="textfield" id="textfield">
+		<label for="Genero"> Genero:</label>
+      <table  style="width: 40%";>
+        <tr>
+          <td><label> Femenino</label></td>
+			<td><input type="radio" name="Genero" value="fem" id="Genero_0"></td>
+        </tr>
+        <tr>
+          <td><label> Masculino</label></td>
+           <td><input type="radio" name="Genero" value="mas" id="Genero_1"></td>
+        </tr>
+        <tr>
+          <td><label> Otro</label></td>
+            <td><input type="radio" name="Genero" value="Otro" id="Genero_2"></td>
+        </tr>
+      </table>
+	  <label for="musica">¿Cuál es tu genero musical favorito?</label>
+		<p>
+		  <label>
+		    Pop</label> <input type="checkbox" name="Música" value="pop" id="Muacutesica_0">
+		  <br>
+		  <label>
+		    Rock</label><input type="checkbox" name="Música" value="rock" id="Muacutesica_1">
+		  <br>
+		  <label>
+		    Tropical</label><input type="checkbox" name="Música" value="tropical" id="Muacutesica_2">
+		  <br>
+		  <label>
+		    Jazz</label><input type="checkbox" name="Música" value="jazz" id="Muacutesica_3">
+		  <br>
+		  <label>
+		    Kpop</label><input type="checkbox" name="Música" value="kpop" id="Muacutesica_4">
+		  <br>
+	  </p>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+	   
+  </section>
+	<section>
+    <h2>Entrevista&nbsp;</h2>
+    <p>	Lorem psum dolor sit amet, consectetur adipisicing elit. Consequuntur et facilis sint, cum perspiciatis ratione numquam odit nulla consequatur excepturi laborum vero obcaecati nobis, ad corrupti dolorem illo voluptatem quae perferendis ducimus, non? Placeat, blanditiis quia sapiente incidunt maiores, ratione minima, distinctio impedit sint iusto possimus harum omnis debitis veritatis quis, qui. Laborum aperiam recusandae ut hic, iusto aliquid corrupti eligendi, quos quod cumque! Totam dicta in reprehenderit nam qui est repudiandae itaque, quasi et optio? Molestias eius maiores magni pariatur, quisquam id sunt quasi dolorum ducimus. Fugit natus reiciendis molestias! Nesciunt quo, aliquam repellendus architecto, culpa unde. Quis, quidem.</p>
+    <form id="form3" name="form3" method="post">
+      <label for="textfield2">¿Como te llamas?&nbsp;</label>
+      <input type="text" name="textfield2" id="textfield2">
+      <label for="date">¿Que día nacista?&nbsp;&nbsp;</label>
+      <input type="date" name="date" id="date">
+      <label for="color">¿Que color es tu favorito?&nbsp;</label>
+      <input type="color" name="color" id="color">
+      <label for="textfield4">¿Cúal es tu pelicúla favorita?&nbsp;&nbsp;</label>
+      <input type="text" name="textfield4" id="textfield4">
+      <label for="number">¿Que edad tienes?&nbsp;</label>
+      <input type="number" name="number" id="number">
+      <label for="textfield5">¿Que helado es tu favorito?&nbsp;&nbsp;</label>
+      <input type="text" name="textfield5" id="textfield5">
+      <label for="tel">¿Cúal es tu numero de teléfono?&nbsp;</label>
+      <input type="tel" name="tel" id="tel">
+      <label for="email">¿Cúal es tu correo eléctronico?&nbsp;</label>
+      <input type="email" name="email" id="email">
+      <label for="textfield3">¿Cúal es tu comida favorita?&nbsp;</label>
+      <input type="text" name="textfield3" id="textfield3">
+      <label for="fileField">¿Cúal es última tarea que subiste?&nbsp;&nbsp;</label>
+      <input type="file" name="fileField" id="fileField">
+      <input type="submit" name="submit2" id="submit2" value="Enviar">
+      
+    </form>
+   
+  </section>
+</main>
+<footer><h5>Elaboador por Estiven Alvarez Cortes</h5></footer>
+</body>
+</html>
